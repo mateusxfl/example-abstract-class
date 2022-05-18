@@ -18,7 +18,7 @@ namespace ExampleAbstractClass.Entities
 
         public override double Area()
         {
-            return 2 * Math.PI * Radius;
+            return Math.PI * Math.Pow(Radius, 2);
         }
     }
 }
